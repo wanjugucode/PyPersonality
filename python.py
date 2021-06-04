@@ -2,27 +2,29 @@ day=int(input("input bitrhday: "))
 month=input("input month of birth(e.g. January,May etc):")
 
 if month =='June':
-    personality="Optimistic" 
+    personality="Sensitive" 
 elif month=="July":
-    personality="Honest"
+    personality="Smart"
 elif month=="August":
-    personality="Kind"
+    personality="Caring"
 elif month=="September":
-    personality="Confident"
+    personality="Calm"
 elif month=="October":
-    personality="Humble"
+    personality="Loyal"
 elif month=="November":
-      personality="Courageous"
+      personality="Secretive"
 elif month=="December":
-    personality="Brave"
+    personality="Ambitious"
 elif month=="january":
-    personality="stubborn"
+    personality="Hardworking"
 elif month=="February":
-    personality="creative"
+    personality="Intelligent"
 elif month=="March":
-    personality="April"
-elif month==" secretive.":
-    personality="May"
-print("your personality is:",personality)
+    personality="Emotional"
+elif month=="April ":
+    personality="fearless"
+elif month=="May ":
+    personality="Short_tempered"
+print("Your are:",personality)
  
 
